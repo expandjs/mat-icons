@@ -1,0 +1,24 @@
+{
+  "name": "mat-icons",
+  "license": "BSD-3-Clause",
+  "version": "0.8.0",
+  "description": "This is the full material icons pack.",
+  "authors": [
+    "Giuliano Rullo <g.rullo@expandjs.com>",
+    "Maurizio Stefàno <m.stefano@expandjs.com>",
+    "Robert Manolea <r.manolea@expandjs.com>"
+  ],
+  "main": [
+    "mat-icons.html"
+  ],
+  "keywords": [
+    "web-components"
+  ],
+  "dependencies": {
+    "xp-iconset": "ExpandJS/xp-iconset"
+  },
+  "devDependencies": {
+    "mat-demo": "ExpandJS/mat-demo",
+    "mat-icon": "ExpandJS/mat-icon"
+  }
+}
