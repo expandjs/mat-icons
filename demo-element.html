@@ -6,12 +6,12 @@
 
     <template>
         <style>
-            :host .cell {
+            :host .demo-cell {
                 padding: 24px 8px;
                 width: 128px;
             }
 
-            :host .icon {
+            :host .demo-icon {
                 height: 32px;
                 width: 32px;
             }
@@ -19,11 +19,11 @@
         <mat-demo label="mat-icons">
 
             <template repeat="{{iconset in iconset.instances}}">
-                <div class="title">{{iconset.name}}</div>
+                <div class="demo-title">{{iconset.name}}</div>
                 <div horizontal layout wrap center-justified>
                     <template repeat="{{icon in iconset.icons}}">
-                        <div class="cell" vertical layout center>
-                            <mat-icon class="icon" name="{{iconset.name}}:{{icon}}"></mat-icon>
+                        <div class="demo-cell" vertical layout center>
+                            <mat-icon class="demo-icon" name="{{iconset.name}}:{{icon}}"></mat-icon>
                             <div font-type="caption">{{icon}}</div>
                         </div>
                     </template>
