@@ -1,0 +1,46 @@
+<link rel="import" href="../mat-demo/mat-demo.html">
+<link rel="import" href="../mat-icon/mat-icon.html">
+<link rel="import" href="mat-icons.html">
+
+<polymer-element name="mat-icons-demo">
+
+    <template>
+        <style>
+            :host .cell {
+                padding: 24px 8px;
+                width: 128px;
+            }
+
+            :host .icon {
+                height: 32px;
+                width: 32px;
+            }
+        </style>
+        <mat-demo label="mat-icons">
+
+            <template repeat="{{iconset in iconset.instances}}">
+                <h1>{{iconset.name}}</h1>
+                <div horizontal layout wrap center-justified>
+                    <template repeat="{{icon in iconset.icons}}">
+                        <div class="cell" vertical layout center>
+                            <mat-icon class="icon" name="{{iconset.name}}:{{icon}}"></mat-icon>
+                            <div font-type="caption">{{icon}}</div>
+                        </div>
+                    </template>
+                </div>
+            </template>
+
+        </mat-demo>
+    </template>
+
+    <script>
+        Polymer({
+
+            // LISTENER
+            ready: function () {
+                this.iconset = XP.createElement('xp-iconset');
+            }
+        })
+    </script>
+
+</polymer-element>
