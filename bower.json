@@ -25,9 +25,5 @@
   ],
   "dependencies": {
     "xp-iconset": "ExpandJS/xp-iconset"
-  },
-  "devDependencies": {
-    "mat-demo": "ExpandJS/mat-demo",
-    "mat-icon": "ExpandJS/mat-icon"
   }
 }
