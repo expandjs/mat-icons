@@ -25,5 +25,10 @@
   ],
   "dependencies": {
     "xp-iconset": "ExpandJS/xp-iconset"
+  },
+  "devDependencies": {
+    "expandjs": "Expandjs/expandjs",
+    "material-design-icons": "Google/material-design-icons",
+    "xp-fs": "ExpandjS/xp-fs"
   }
 }
