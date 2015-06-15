@@ -24,7 +24,7 @@
     "**/.*"
   ],
   "dependencies": {
-    "xp-iconset": "ExpandJS/xp-iconset"
+    "xp-iconset": "ExpandJS/xp-iconset#alpha"
   },
   "devDependencies": {
     "material-design-icons": "Google/material-design-icons"
