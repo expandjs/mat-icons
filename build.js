@@ -33,7 +33,7 @@
 
             // Vars
             var id  = item.replace('ic_', '').replace('_24px.svg', '').replace(/_/g, '-'),
-                svg = fs.readFileSync(dir + '/' + sub + '/svg/production/' + item, 'utf8');
+                svg = fs.readFileSync(dir + '/' + sub + '/svg/production/' + item, 'utf-8');
 
             // Setting
             group[id] = svg.replace(/<svg.*?>/, '').replace('</svg>', '');
